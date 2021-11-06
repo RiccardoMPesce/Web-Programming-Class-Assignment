@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calcio Catania</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Calcio Catania</h1>
+        <header id="header-principale">
+            <img src="http://www.sudpress.it/wp-content/uploads/2014/02/catania_calcio-12-13.jpg" alt="L'attuale squadra">
+            <section id="carrello">
+                <p>Hai <span id="n-elementi">0</span> articoli nel carrello</p>
+                <p><span id="prezzo-totale">0</span> €</p>
+                <div id="acquisti">
+                    <!-- Verranno inseriti dinamicamente gli articoli qui -->
+                </div>
+                <form action="acquisto.php" method="post" accept-charset="utf-8" id="form-acquisto">
+                    <input type="text" name="foto" id="n-foto">
+                    <input type="text" name="cappello" id="n-cappello">
+                    <input type="text" name="maglietta" id="n-maglietta">
+                    <input type="text" name="tazza" id="n-tazza">
+                    <button type="submit" id="bottoneOrdine">Procedi all'ordine</button>    
+                </form>
+            </section>
+        </header>
+        <section id="info">
+            <h4>Informazioni</h4>
+            <address>
+                <p>Piazza Spedini, 2, Catania</p>
+                <p>(+39) 095095590</p>
+                <p><a href="mailto:info@calciocatania.it">info@calciocatania.it</a></p>
+                <p><span id="label">Allenatore:</span> Cristiano Lucarelli</p>
+            </address>
+        </section>
+        <section id="sezione-giocatori">
+            <h2>Elenco Giocatori</h2>
+            <div id="contenitore-bottoni-menu">
+                <button id="bottone-visualizzazione-estesa">Visualizzazione Estesa</button>
+                <button id="bottone-visualizzazione-compatta">Visualizzazione Compatta</button>  
+            </div>
+            <div id="contenitore-bottoni-ordinamento">
+                <button id="bottone-ordinamento-nome">Ordina per nome</button>
+                <button id="bottone-ordinamento-numero-maglia">Ordina per numero maglietta</button>
+                <button id="bottone-ordinamento-ruolo">Ordina per ruolo</button>
+                <button id="bottone-ordinamento-anno">Ordina per anno di nascita</button>
+            </div>
+            <section id="elenco-giocatori">
+                <!-- Verranno create qui le liste -->    
+            </section>
+        </section>
+        <section id="negozio">
+            <h3>Negozio</h3>
+            <section id="sezione-foto">
+                <p>Acquista una foto (1.00 €): </p>
+                <button type="button" id="acquista-foto">Aggiungi al carrello</button>
+            </section>
+            <section id="sezione-cappello">
+                <p>Acquista un cappello (10.00 €): </p>
+                <button type="button" id="acquista-cappello">Aggiungi al carrello</button>
+            </section>
+            <section id="sezione-maglietta">
+                <p>Acquista una maglietta (15.00 €): </p>
+                <button type="button" id="acquista-maglietta">Aggiungi al carrello</button>
+            </section>
+            <section id="sezione-tazza">
+                <p>Acquista una tazza (5.00 €): </p>
+                <button type="button" id="acquista-tazza">Aggiungi al carrello</button>
+            </section>
+        </section>
+        <footer>
+            <p>&copy; Calcio Catania 2018</p>
+        </footer>
+    </body>
+    <script src="main.js"></script>
+</html>

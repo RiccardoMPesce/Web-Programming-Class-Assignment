@@ -1,0 +1,249 @@
+html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(233, 121, 44, .5);
+}
+
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
+address {
+    text-align: center;
+}
+
+body > h1 {
+    text-align: center;
+}
+
+footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+.articolo {
+    width: 80%;
+    margin: 1em auto;
+    border: 1px solid black;
+}
+
+.articolo h6 {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.articolo button {
+    display: inline-block;
+}
+
+.articolo p {
+    text-align: center;
+    margin: 1em;
+}
+
+.articolo:before,
+.articolo:after {
+  content: "";
+  display: table;
+} 
+.articolo:after {
+  clear: both;
+}
+.articolo {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#n-elementi {
+    font-weight: bold;
+}
+
+#carrello > p {
+    text-align: center;
+}
+
+/* Clearfix */
+#header-principale:before,
+#header-principale:after {
+  content: "";
+  display: table;
+} 
+#header-principale:after {
+  clear: both;
+}
+#header-principale {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#info {
+    margin: 1em auto;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#info h4 {
+    text-align: center;
+}
+
+#header-principale {
+    margin: 2em auto;
+}
+
+#header-principale > * {
+    display: inline;
+}
+
+#header-principale img {
+    display: block;
+    border: 1px solid darkslategray;
+    width: 50%;
+    float: left;
+}
+
+#label {
+    font-weight: bold;
+    font-style: normal;
+}
+
+#carrello {
+    border: 1px solid darkslategray;
+    width: 30%;
+    float: left;
+    margin-left: 10em;
+    overflow: auto;
+}
+
+#carrello p {
+    padding: .01em;
+}
+
+#carrello button {
+    display: block;
+    margin: .3em auto;
+    background-color: white;
+    border: 1px solid Slategray;
+}
+
+#negozio {
+    border-bottom: 1px solid black;
+}
+
+#negozio h3 {
+    text-align: center;
+}
+
+#negozio section {
+    margin: 1em auto;
+}
+
+#negozio p {
+    display: inline;
+}
+
+#negozio button {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#form-acquisto > input {
+    display: none;
+}
+
+#sezione-giocatori {
+    border-bottom: 1px solid black;
+}
+
+#sezione-giocatori h2 {
+    text-align: center;
+}
+
+#contenitore-bottoni-menu {
+    width: 27.55%;
+    margin: 1.2em auto;
+}
+
+#contenitore-bottoni-ordinamento {
+    width: 51.85%;
+    margin: 1.2em auto;
+}
+
+#contenitore-bottoni-menu button,
+#contenitore-bottoni-ordinamento button {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#visualizzazione-estesa {
+    width: 100%;
+    margin: 1em auto;
+}
+
+#visualizzazione-estesa .nome-giocatore {
+    text-align: center;
+}
+
+#visualizzazione-estesa .numero-maglia {
+    text-align: center;
+}
+
+#visualizzazione-estesa .descrizione {
+    text-align: center;
+}
+
+#visualizzazione-estesa .anno-di-nascita {
+    text-align: center;
+}
+
+#visualizzazione-estesa .ruolo {
+    text-align: center;
+}
+
+#visualizzazione-estesa .foto-giocatore {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 1em auto;
+}
+
+#visualizzazione-estesa .contenitore-ausiliario {
+    border: 1px solid black;
+    display: block;
+    position: relative;
+    margin: .2em auto;
+}
+
+#visualizzazione-compatta {
+    width: 50%;
+    margin: 1em auto;
+}
+
+#visualizzazione-compatta .nome-giocatore {
+    text-align: center;
+}
+
+#visualizzazione-compatta .numero-maglia {
+    text-align: center;
+}
+
+#visualizzazione-compatta .anno-di-nascita {
+    text-align: center;
+}
+
+#visualizzazione-compatta .ruolo {
+    text-align: center;
+}
+
+#visualizzazione-compatta .contenitore-ausiliario {
+    border: 1px solid black;
+    display: block;
+    position: relative;
+    margin: .2em auto;
+}
